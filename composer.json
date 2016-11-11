@@ -1,0 +1,34 @@
+{
+	"name" : "psr-php7/http-message",
+	"description" : "PSR-7 HTTP message interfaces with PHP 7 codebase.",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Pedro Batista",
+			"email" : "pedrobatista@myself.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7"
+	},
+	"require-dev" : {
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Psr\\Http\\Message\\" : "src"
+		}
+	},
+	"keywords" : [
+		"http",
+		"message",
+		"psr",
+		"psr-7",
+		"interfaces",
+		"php7"
+	],
+    "extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
